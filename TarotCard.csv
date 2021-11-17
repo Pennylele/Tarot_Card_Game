@@ -21,59 +21,59 @@ id,Arcana,Number,Suit,Name,Meaning
 20,1,0,0,Judgment,"Judgement, rebirth, inner calling, absolution"
 21,1,0,0,The Fool,"Beginnings, innocence, spontaneity, a free spirit"
 22,1,0,0,The World,"Completion, integration, accomplishment, travel"
-23,2,11,1,Page of Wands,"Inspiration, new opportunities, growth, potential"
-24,2,12,1,Knight of Wands,meaning
-25,2,13,1,Queen of Wands,meaning
-26,2,14,1,King of Wands,meaning
-27,2,1,1,Ace of Wands,meaning
-28,2,2,1,Two of Wands,meaning
-29,2,3,1,Three of Wands,meaning
-30,2,4,1,Four of Wands,meaning
-31,2,5,1,Five of Wands,meaning
-32,2,6,1,Six of Wands,meaning
-33,2,7,1,Seven of Wands,meaning
-34,2,8,1,Eight of Wands,meaning
-35,2,9,1,Nine of Wands,meaning
-36,2,10,1,Ten of Wands,meaning
-37,2,11,2,Page of Cups,meaning
-38,2,12,2,Knight of Cups,meaning
-39,2,13,2,Queen of Cups,meaning
-40,2,14,2,King of Cups,meaning
-41,2,1,2,Ace of Cups,meaning
-42,2,1,2,Two of Cups,meaning
-43,2,3,2,Three of Cups,meaning
-44,2,4,2,Four of Cups,meaning
-45,2,5,2,Five of Cups,meaning
-46,2,6,2,Six of Cups,meaning
-47,2,7,2,Seven of Cups,meaning
-48,2,8,2,Eight of Cups,meaning
-49,2,9,2,Nine of Cups,meaning
-50,2,10,2,Ten of Cups,meaning
-51,2,11,3,Page of Pentacles,meaning
-52,2,12,3,Knight of Pentacles,meaning
-53,2,13,3,Queen of Pentacles,meaning
-54,2,14,3,King of Pentacles,meaning
-55,2,1,3,Ace of Pentacles,meaning
-56,2,2,3,Two of Pentacles,meaning
-57,2,3,3,Three of Pentacles,meaning
-58,2,4,3,Four of Pentacles,meaning
-59,2,5,3,Five of Pentacles,meaning
-60,2,6,3,Six of Pentacles,meaning
-61,2,7,3,Seven of Pentacles,meaning
-62,2,8,3,Eight of Pentacles,meaning
-63,2,9,3,Nine of Pentacles,meaning
-64,2,10,3,Ten of Pentacles,meaning
-65,2,11,4,Page of Swords,meaning
-66,2,12,4,Knight of Swords,meaning
-67,2,13,4,Queen of Swords,meaning
-68,2,14,4,King of Swords,meaning
-69,2,1,4,Ace of Swords,meaning
-70,2,2,4,Two of Swords,meaning
-71,2,3,4,Three of Swords,meaning
-72,2,4,4,Four of Swords,meaning
-73,2,5,4,Five of Swords,meaning
-74,2,6,4,Six of Swords,meaning
-75,2,7,4,Seven of Swords,meaning
-76,2,8,4,Eight of Swords,meaning
-77,2,9,4,Nine of Swords,meaning
-78,2,10,4,Ten of Swords,meaning
+23,2,11,1,Page of Wands,"Inspiration, ideas, discovery, limitless potential, free spirit"
+24,2,12,1,Knight of Wands,"Energy, passion, inspired action, adventure, impulsiveness"
+25,2,13,1,Queen of Wands,"Courage, confidence, independence, social butterfly, determination"
+26,2,14,1,King of Wands,"Natural-born leader, vision, entrepreneur, honour"
+27,2,1,1,Ace of Wands,"Inspiration, new opportunities, growth, potential"
+28,2,2,1,Two of Wands,"Future planning, progress, decisions, discovery"
+29,2,3,1,Three of Wands,"Progress, expansion, foresight, overseas opportunities"
+30,2,4,1,Four of Wands,"Celebration, joy, harmony, relaxation, homecoming"
+31,2,5,1,Five of Wands,"Conflict, disagreements, competition, tension, diversity"
+32,2,6,1,Six of Wands,"Success, public recognition, progress, self-confidence"
+33,2,7,1,Seven of Wands,"Challenge, competition, protection, perseverance"
+34,2,8,1,Eight of Wands,"Movement, fast paced change, action, alignment, air travel"
+35,2,9,1,Nine of Wands,"Resilience, courage, persistence, test of faith, boundaries"
+36,2,10,1,Ten of Wands,"Burden, extra responsibility, hard work, completion"
+37,2,11,2,Page of Cups,"Creative opportunities, intuitive messages, curiosity, possibility."
+38,2,12,2,Knight of Cups,"Creativity, romance, charm, imagination, beauty."
+39,2,13,2,Queen of Cups,"Compassionate, caring, emotionally stable, intuitive, in flow."
+40,2,14,2,King of Cups,"Emotionally balanced, compassionate, diplomatic."
+41,2,1,2,Ace of Cups,"Love, new relationships, compassion, creativity."
+42,2,1,2,Two of Cups,"Unified love, partnership, mutual attraction"
+43,2,3,2,Three of Cups,"Celebration, friendship, creativity, collaborations."
+44,2,4,2,Four of Cups,"Meditation, contemplation, apathy, reevaluation."
+45,2,5,2,Five of Cups,"Regret, failure, disappointment, pessimism."
+46,2,6,2,Six of Cups,"Revisiting the past, childhood memories, innocence, joy."
+47,2,7,2,Seven of Cups,"Opportunities, choices, wishful thinking, illusion."
+48,2,8,2,Eight of Cups,"Disappointment, abandonment, withdrawal, escapism."
+49,2,9,2,Nine of Cups,"Contentment, satisfaction, gratitude, wish come true."
+50,2,10,2,Ten of Cups,"Divine love, blissful relationships, harmony, alignment."
+51,2,11,3,Page of Pentacles,"Manifestation, financial opportunity, skill development."
+52,2,12,3,Knight of Pentacles,"Hard work, productivity, routine, conservatism."
+53,2,13,3,Queen of Pentacles,"Nurturing, practical, providing financially, a working parent."
+54,2,14,3,King of Pentacles,"Wealth, business, leadership, security, discipline, abundance."
+55,2,1,3,Ace of Pentacles,"A new financial or career opportunity, manifestation, abundance."
+56,2,2,3,Two of Pentacles,"Multiple priorities, time management, prioritisation, adaptability."
+57,2,3,3,Three of Pentacles,"Teamwork, collaboration, learning, implementation."
+58,2,4,3,Four of Pentacles,"Saving money, security, conservatism, scarcity, control."
+59,2,5,3,Five of Pentacles,"Financial loss, poverty, lack mindset, isolation, worry."
+60,2,6,3,Six of Pentacles,"Giving, receiving, sharing wealth, generosity, charity."
+61,2,7,3,Seven of Pentacles,"Long-term view, sustainable results, perseverance, investment."
+62,2,8,3,Eight of Pentacles,"Apprenticeship, repetitive tasks, mastery, skill development."
+63,2,9,3,Nine of Pentacles,"Abundance, luxury, self-sufficiency, financial independence."
+64,2,10,3,Ten of Pentacles,"Wealth, financial security, family, long-term success, contribution."
+65,2,11,4,Page of Swords,"New ideas, curiosity, thirst for knowledge, new ways of communicating"
+66,2,12,4,Knight of Swords,"Ambitious, action-oriented, driven to succeed, fast-thinking"
+67,2,13,4,Queen of Swords,"Independent, unbiased judgement, clear boundaries, direct communication"
+68,2,14,4,King of Swords,"Mental clarity, intellectual power, authority, truth"
+69,2,1,4,Ace of Swords,"Breakthroughs, new ideas, mental clarity, success"
+70,2,2,4,Two of Swords,"Difficult decisions, weighing up options, an impasse, avoidance"
+71,2,3,4,Three of Swords,"Heartbreak, emotional pain, sorrow, grief, hurt"
+72,2,4,4,Four of Swords,"Rest, relaxation, meditation, contemplation, recuperation"
+73,2,5,4,Five of Swords,"Conflict, disagreements, competition, defeat, winning at all costs"
+74,2,6,4,Six of Swords,"Transition, change, rite of passage, releasing baggage."
+75,2,7,4,Seven of Swords,"Betrayal, deception, getting away with something, acting strategically"
+76,2,8,4,Eight of Swords,"Negative thoughts, self-imposed restriction, imprisonment, victim mentality"
+77,2,9,4,Nine of Swords,"Anxiety, worry, fear, depression, nightmares"
+78,2,10,4,Ten of Swords,"Painful endings, deep wounds, betrayal, loss, crisis"
