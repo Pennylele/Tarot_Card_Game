@@ -1,5 +1,4 @@
 from Play import Play
-from Game import Game
 
 def main():
     game = Play()
