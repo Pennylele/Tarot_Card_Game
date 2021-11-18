@@ -5,10 +5,11 @@ import collections
 
 
 class Game:
-    def __init__(self, cur, player=None):
+    def __init__(self, cur, card_conn, player=None):
         self.arcanas = collections.defaultdict(list) # 1-22 are major arcanas; 23-78 are minor arcanas
         self.cur = cur
         self.player = player
+        self.card_conn = card_conn
 
         # create table if not already exist
         cur.execute(""" CREATE TABLE IF NOT EXISTS players (
@@ -113,3 +114,5 @@ class Game:
         if self.player:
             self.cur.execute(""" INSERT INTO history (playerID, cardPicked, result) VALUES (?, ?, ?) """,
                             (self.player.get_id(), card.get_name(), card.get_meaning()))
+
+        self.card_conn.commit()

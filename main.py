@@ -7,8 +7,8 @@ def main():
     card_conn = sqlite3.connect("GameHistory.db")
     cur = card_conn.cursor()
 
-    game = Play(cur)
-    game.playGame(card_conn)
+    game = Play(cur, card_conn)
+    game.playGame()
 
 if __name__ == "__main__":
     main()

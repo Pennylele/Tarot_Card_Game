@@ -2,8 +2,9 @@ import Game
 import Player_login
 
 class Play:
-    def __init__(self, cur): # Game instance
-        self.game = Game.Game(cur, player=None)
+    def __init__(self, cur, card_conn): # Game instance
+        self.game = Game.Game(cur, card_conn, player=None)
+        self.card_conn = card_conn
         self.cur = cur
         self.player = None
 
@@ -11,7 +12,7 @@ class Play:
         return self.player
 
     # Have user choose either to play as a registered player or a guest
-    def playGame(self, card_conn):
+    def playGame(self):
         print("Welcome to the Tarot Game!")
         print("CHOOSE TO PLAY:\n"
           "1. As an existing Player (login required)\n"
@@ -39,7 +40,7 @@ class Play:
             self.game.set_player(player)
             self.login_screen()
 
-        card_conn.commit()
+        self.card_conn.commit()
 
     # Once the user logged in, they can see this screen that gives them the choices or loading their history.
     def login_screen(self):
