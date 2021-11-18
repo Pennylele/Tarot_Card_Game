@@ -19,7 +19,7 @@ class Play:
           "3. As a Guest.\n")
         choice = input()
         while choice not in ("1", "2", "3"):
-            print("Invalid choice. Please type in 1, 2, 3, 4 or 9.")
+            print("Invalid choice. Please type in 1, 2, or 3.")
             choice = input()
 
         if choice == "3":

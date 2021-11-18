@@ -1,5 +1,4 @@
 import Player
-import Play
 
 class Login:
     def __init__(self, cur):

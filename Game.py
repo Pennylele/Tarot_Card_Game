@@ -2,7 +2,6 @@ import random
 import Card
 from csv import reader
 import collections
-import Player_login
 
 
 class Game:
