@@ -8,11 +8,9 @@ class Suits(Enum):
     WANDS, CUPS, PENTACLES, SWORDS = 1, 2, 3, 4
 
 class Card(ABC):
-    def __init__(self, id, arcana, number, suit, name, meaning):
+    def __init__(self, id, arcana, name, meaning):
         self.__id = id
         self.__arcana = arcana
-        self.__number = number
-        self.__suit = suit
         self.__name = name
         self.__meaning = meaning
 
@@ -21,12 +19,6 @@ class Card(ABC):
 
     def get_arcana(self):
         return self.__arcana
-
-    def get_number(self):
-        return self.__number
-
-    def get_suit(self):
-        return self.__suit
 
     def get_name(self):
         return self.__name
@@ -40,12 +32,6 @@ class Card(ABC):
     def set_arcana(self, newArcana):
         self.__arcana = newArcana
 
-    def set_number(self, newNumber):
-        self.__arcana = newNumber
-
-    def set_suit(self, newSuit):
-        self.__suit = newSuit
-
     def set_name(self, newName):
         self.__name = newName
 
@@ -54,9 +40,23 @@ class Card(ABC):
 
 
 class MajorArcana(Card):
-    def __init__(self, id, arcana, number, suit, name, meaning):
-        super().__init__(id, arcana, number, suit, name, meaning)
+    def __init__(self, id, arcana, name, meaning):
+        super().__init__(id, arcana, name, meaning)
 
 class MinorArcana(Card):
     def __init__(self, id, arcana, number, suit, name, meaning):
-        super().__init__(id, arcana, number, suit, name, meaning)
+        super().__init__(id, arcana, name, meaning)
+        self.__number = number
+        self.__suit = suit
+
+    def set_number(self, newNumber):
+        self.__arcana = newNumber
+
+    def set_suit(self, newSuit):
+        self.__suit = newSuit
+
+    def get_number(self):
+        return self.__number
+
+    def get_suit(self):
+        return self.__suit

@@ -3,21 +3,21 @@ import itertools
 class Player:
     newidP = itertools.count()
     def __init__(self, id, name, email):
-        self.playerID = id
-        self.name = name
-        self.email = email
+        self.__playerID = id
+        self.__name = name
+        self.__email = email
     
     def get_id(self):
-        return self.playerID
+        return self.__playerID
     
     def get_name(self):
-        return self.name
+        return self.__name
 
     def get_email(self):
-        return self.email
+        return self.__email
 
     def set_name(self, newName):
-        self.name = newName
+        self.__name = newName
 
     def set_email(self, newEmail):
-        self.email = newEmail
+        self.__email = newEmail

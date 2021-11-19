@@ -36,7 +36,7 @@ class Game:
             for id, arcana, number, suit, name, meaning in list(csv_reader):
                 id = int(id)
                 if 1 <= id <= 22:
-                    self.arcanas[id] = Card.MajorArcana(id, arcana, number, suit, name, meaning)
+                    self.arcanas[id] = Card.MajorArcana(id, arcana, name, meaning)
                 else:
                     self.arcanas[id] = Card.MinorArcana(id, arcana, number, suit, name, meaning)
 
